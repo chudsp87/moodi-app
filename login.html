@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/login.css" rel="stylesheet" />
+    <!-- <link href="styles/create-account.css" rel="stylesheet" /> -->
+    <title>Create Account</title>
+    <style>
+    body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    width: 700px;
+    height: 560px;
+    }
+    </style>
+    
+  </head>
+  <body>
+    <div id="login-box">
+      <div class="left">
+        <h1 style="padding-left: 15px; padding-bottom: 0; font-size: 48; font-weight: 700;">Sign up</h1>
+        <div class=row>
+          <div class=column>
+            <input type="text" name="username" placeholder="Username" />
+            <input type="text" name="email" placeholder="E-mail" />
+          </div>
+          <div class=column>
+            <input type="password" name="password" placeholder="Password" />
+            <input type="password" name="password2" placeholder="Retype password" />
+          </div>
+        </div>
+        <input class="center" type="submit" onclick="window.location.href='features.html';" value="Sign me up!" />
+      </div>
+    </div>
+    
+    <div id="login-sso">
+    <div class="bottom-center">
+      <span class="loginwith" style="padding-top: 20px; padding-bottom: 0;">Or, sign in with SSO</span>
+      
+      <div style="padding-top: 10px" class="row-bottom">
+        <button class="social-signin facebook">Log in with facebook</button>
+        <button class="social-signin twitter">Log in with Twitter</button>
+        <button class="social-signin google">Log in with Google+</button>
+      </div>
+
+    </div>
+  </div>
+  </body>
+</html>

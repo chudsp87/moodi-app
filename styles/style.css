@@ -1,0 +1,69 @@
+html {
+  font-size: 24px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: 'Varela Round', sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  background-color: lightgray;
+}
+
+.red-text {
+  color: red;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: darkcyan;
+  margin: 0;
+  padding: 25px 10px;
+}
+
+p,
+li {
+  font-size: 26px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+
+
+
+body {
+  width: 1000px;
+  height: 100%;
+  /* margin: provides space AROUND an element*/
+  /* with one value: [all sides]
+  /* with two values: [top/bottom, left/right] */
+  /* with three values: [top, left/right, bottom] */
+  /* with four values: [top, right, bottom, left (clockwise)] */
+  /* valid values: <length> (can be negative); <percentange%> (of the containing block); or 'auto' */
+  margin: 0 auto;
+  background-color: #f3f6f4;
+  /* padding: provides spaces WITHIN an element */
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+.logo {
+  margin: 0;
+  padding: 10px 10px 10px 10px; 
+  position: absolute;
+  width: 10%;
+}
+
+.instructions {
+  padding: 40px 10%;
+}
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}

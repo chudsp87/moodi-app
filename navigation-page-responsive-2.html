@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles/style-navbar-responsive.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <style>
+        body {
+        margin: 0;
+        font-family: 'Varela Round', sans-serif;
+        }
+        </style>
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+        </div>
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+        
+        <div style="padding:0 16px;">
+            <h2>Responsive Topnav Example</h2>
+            <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
+            <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+            <h4>Resize the browser window to see the effect.</h4>
+        </div>
+    </body>
